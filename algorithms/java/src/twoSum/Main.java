@@ -10,7 +10,7 @@ public class Main {
         int nums[] = {2, 7, 11, 15};
         int target = 9;
         int expect[] = {0, 1};
-
+        System.out.println(Arrays.toString(new Solution().twoSum(nums, target)));
         assert Arrays.equals(new Solution().twoSum(nums, target), expect);
     }
 }
